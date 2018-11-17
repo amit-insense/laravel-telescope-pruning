@@ -20,9 +20,21 @@
         "illuminate/database": "^5.5",
         "laravel/telescope": "^0.1.6|^1.0"
     },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0",
+        "orchestra/testbench": "~3.7",
+        "doctrine/dbal": "~2.6",
+        "laravel/telescope": "^0.1.8",
+        "mockery/mockery": "^1.2"
+    },
     "autoload": {
         "psr-4": {
             "Insense\\LaravelTelescopePruning\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Insense\\LaravelTelescopePruning\\Tests\\": "tests/"
         }
     },
     "extra": {
